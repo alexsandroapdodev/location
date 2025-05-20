@@ -46,7 +46,7 @@ mesmo em condições adversas como áreas urbanas, zonas rurais, ambientes inter
 
 ![blog](https://github.com/user-attachments/assets/655d06cb-e253-4aee-b617-653d269ba113)
 
-Veja Aqui => https://location-seven-ochre.vercel.app
+Veja Aqui => https://location-seven-ochre.vercel.app | https://alexsandroapdodev.github.io/location
 
 
 

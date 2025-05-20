@@ -7,7 +7,7 @@ ideal para aplicações que exigem rastreamento, georreferenciamento ou análise
 
 
 
-🚀 Funcionalidades Principais:
+ Funcionalidades Principais:
 
 🔎 Localização precisa com suporte a múltiplas regiões;
 
@@ -21,11 +21,14 @@ ideal para aplicações que exigem rastreamento, georreferenciamento ou análise
 
 
 
-🛠️ Tecnologias utilizadas:
+ Tecnologias utilizadas:
 
 - Front end desenvolvido com tecnologias web modernas;
 - Backend integrado a banco de dados;
 - Design responsivo para uso em dispositivos móveis e desktop.
+
+Diferenciais:
+Traz desenvolvimento de soluções de geolocalização e cobertura de sinal em áreas de difícil acesso ou com infraestrutura limitada.
 
 Motivação: 
 

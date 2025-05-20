@@ -1,0 +1,479 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 42px 0 42px;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.88px;
+}
+
+header a,
+header button {
+    margin-right: 20px;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 5px 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    max-width: 300px;
+    margin-left: 20px;
+}
+
+.search-container input {
+    border: none;
+    outline: none;
+    padding: 8px;
+    flex: 1;
+    font-size: 14px;
+}
+
+.search-container button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #333;
+    font-size: 18px;
+}
+
+h1 {
+    color: #161A49;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    letter-spacing: 0.6px;
+    margin-left: 84.82px;
+    width: 582px;
+}
+
+p {
+    color: #4B505A;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    width: 493px;
+    margin-top: 47px;
+    margin-left: 84.82px;
+    margin-bottom: 55px;
+}
+
+.link-header {
+    margin-right: 32px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.button-sign-up {
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 1px;
+    background: #6FBF44;
+    border: 1px #4CB538;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 124px;
+    height: 51px;
+}
+
+.button-sign-up:hover {
+    background-color: green;
+}
+
+img {
+    margin-top: 163px;
+    margin-left: 121px;
+    display: inline-block;
+    width: 595.18px;
+    height: 500px;
+}
+
+article {
+    display: inline-block;
+}
+
+.learnmore {
+    margin-left: 84.82px;
+    cursor: pointer;
+    color: #6FBF44;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 1px;
+}
+
+.product {
+    transition: transform 0.5s ease;
+    cursor: pointer;
+}
+
+.product:hover {
+    transform: scale(1.1);
+}
+
+h2 {
+    color: #161A49;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 82px;
+    letter-spacing: 0.6px;
+    margin-left: 84.82px;
+    width: 582px;
+}
+
+span {
+    color: #161A49;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 82px;
+    letter-spacing: 0.6px;
+    margin-left: 84.82px;
+    width: 582px;
+}
+
+.formulario-fale-conosco {
+    background-color: #2B91F7;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    position: fixed;
+    left: -290px;
+    top: 30%;
+    padding: 20px;
+    border-radius: 5px;
+    transition: left 1s ease-in-out;
+    width: 300px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.formulario-fale-conosco input,
+.formulario-fale-conosco button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.mascara-formulario {
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 100%);
+    transition: visibility 1s ease-in-out;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #ffffff;
+}
+
+.login-box {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.login-box h1 {
+    font-size: 32px;
+    color: #161A49;
+    margin-bottom: 30px;
+    margin-left: 0;
+    text-align: left;
+}
+
+.login-box form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.login-box input {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.register-link {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #4B505A;
+    margin-left: 0;
+    text-align: left;
+}
+
+.register-link a {
+    color: #6FBF44;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 800px;
+    margin: 180px auto 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.iframe-container {
+    margin: 10px 0 0 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.blog-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 800px;
+    margin: 180px auto 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.about h1,
+.about h2,
+.about p {
+    width: 100%;
+    max-width: 700px;
+    margin: 10px 0;
+    padding: 0 20px;
+    font-family: 'Poppins', sans-serif;
+    color: #161A49;
+}
+
+.about h1 {
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 82px;
+    letter-spacing: 0.6px;
+}
+
+.about h2 {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 82px;
+    letter-spacing: 0.6px;
+    margin-top: 20px;
+}
+
+.about p {
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    color: #4B505A;
+    margin-top: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.sup-price {
+    font-size: 0.6em;
+    vertical-align: super;
+}
+
+.link-whatsapp {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 1000;
+}
+
+.link-whatsapp img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+.button-add-to-cart {
+    background-color: #28a745;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.button-add-to-cart:hover {
+    background-color: #218838;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.button-add-to-cart:active {
+    background-color: #1e7e34;
+    transform: translateY(0);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.button-add-to-cart i {
+    margin-right: 8px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        padding: 15px 20px;
+    }
+
+    header a, header button {
+        margin-right: 10px;
+    }
+
+    .search-container {
+        max-width: 200px;
+        margin-left: 0;
+    }
+
+    h1 {
+        font-size: 40px;
+        margin-left: 20px;
+        width: auto;
+    }
+
+    p {
+        font-size: 16px;
+        width: auto;
+        margin-left: 20px;
+    }
+
+    .login-box {
+        max-width: 90%;
+        padding: 20px;
+    }
+
+    .button-sign-up {
+        width: 100%;
+    }
+
+    .about h1 {
+        font-size: 48px;
+    }
+
+    .about h2 {
+        font-size: 22px;
+    }
+
+    .about p {
+        font-size: 16px;
+    }
+
+    .link-whatsapp img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .button-add-to-cart {
+        width: 100%;
+    }
+
+    footer {
+        padding: 15px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    header {
+        padding: 10px 15px;
+    }
+
+    .search-container {
+        max-width: 150px;
+        margin-left: 0;
+    }
+
+    h1 {
+        font-size: 30px;
+        margin-left: 10px;
+        width: auto;
+    }
+
+    p {
+        font-size: 14px;
+        margin-left: 10px;
+    }
+
+    .login-box {
+        padding: 15px;
+        max-width: 100%;
+    }
+
+    .button-sign-up {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .about h1 {
+        font-size: 36px;
+    }
+
+    .about h2 {
+        font-size: 20px;
+    }
+
+    .about p {
+        font-size: 14px;
+    }
+
+    .link-whatsapp img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .button-add-to-cart {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    footer {
+        padding: 10px;
+    }
+}

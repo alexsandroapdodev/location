@@ -7,6 +7,12 @@
     font-family: "Poppins", sans-serif;
 }
 
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -304,8 +310,9 @@ a {
 }
 
 .sup-price {
-    font-size: 0.6em;
+    font-size: 12px;
     vertical-align: super;
+    color: red;
 }
 
 .link-whatsapp {
@@ -358,122 +365,105 @@ footer {
     padding: 20px;
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
     header {
         flex-direction: column;
-        padding: 15px 20px;
-    }
-
-    header a, header button {
-        margin-right: 10px;
-    }
-
-    .search-container {
-        max-width: 200px;
-        margin-left: 0;
-    }
-
-    h1 {
-        font-size: 40px;
-        margin-left: 20px;
-        width: auto;
-    }
-
-    p {
-        font-size: 16px;
-        width: auto;
-        margin-left: 20px;
-    }
-
-    .login-box {
-        max-width: 90%;
+        align-items: flex-start;
         padding: 20px;
     }
 
-    .button-sign-up {
-        width: 100%;
-    }
-
-    .about h1 {
-        font-size: 48px;
-    }
-
-    .about h2 {
-        font-size: 22px;
-    }
-
-    .about p {
-        font-size: 16px;
-    }
-
-    .link-whatsapp img {
-        width: 60px;
-        height: 60px;
-    }
-
-    .button-add-to-cart {
-        width: 100%;
-    }
-
-    footer {
-        padding: 15px;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    header {
-        padding: 10px 15px;
+    header a,
+    header button {
+        margin-right: 10px;
+        margin-bottom: 10px;
     }
 
     .search-container {
-        max-width: 150px;
-        margin-left: 0;
-    }
-
-    h1 {
-        font-size: 30px;
-        margin-left: 10px;
-        width: auto;
-    }
-
-    p {
-        font-size: 14px;
-        margin-left: 10px;
-    }
-
-    .login-box {
-        padding: 15px;
         max-width: 100%;
-    }
-
-    .button-sign-up {
+        margin-left: 0;
         width: 100%;
-        font-size: 14px;
-    }
-
-    .about h1 {
-        font-size: 36px;
-    }
-
-    .about h2 {
-        font-size: 20px;
-    }
-
-    .about p {
-        font-size: 14px;
-    }
-
-    .link-whatsapp img {
-        width: 50px;
-        height: 50px;
     }
 
     .button-add-to-cart {
-        font-size: 14px;
-        padding: 10px;
+        margin-left: 9%;
     }
 
-    footer {
-        padding: 10px;
+    @media (max-width: 480px) {
+        .iframe-container {
+            max-width: 300px;
+            width: 100%;
+            aspect-ratio: 16 / 9;
+            margin: 0 auto;
+            border: none;
+        }
+
+
+        .video {
+            max-width: 300px;
+            width: 100%;
+            height: auto;
+        }
+
+        header {
+            padding: 15px;
+        }
+
+        header a,
+        header button {
+            margin-right: 10px;
+            margin-bottom: 8px;
+            font-size: 12px;
+        }
+
+        .search-container {
+            max-width: 100%;
+            margin-left: 0;
+            width: 100%;
+        }
+
+        h1 {
+            font-size: 28px;
+            line-height: 36px;
+            width: 100%;
+            margin-left: 0;
+            padding: 0 15px;
+        }
+
+        p {
+            font-size: 14px;
+            line-height: 24px;
+            width: 100%;
+            margin-left: 0;
+            padding: 0 15px;
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }
+
+        .learnmore,
+        h2,
+        span {
+            margin-left: 0;
+            width: 100%;
+            padding: 0 15px;
+            font-size: 20px;
+        }
+
+        img {
+            margin-left: 0;
+            margin-top: 40px;
+            width: 100%;
+            height: auto;
+        }
+
+        article {
+            display: block;
+            padding: 0 15px;
+        }
+
+        .button-sign-up {
+            width: 100%;
+            height: 45px;
+            font-size: 14px;
+        }
     }
 }

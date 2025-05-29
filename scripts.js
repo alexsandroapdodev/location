@@ -39,9 +39,3 @@ document.getElementById('search').addEventListener('keydown', function (event) {
     document.getElementById('search-btn').click();
   }
 });
-
-
-
-
-
-

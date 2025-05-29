@@ -365,7 +365,7 @@ footer {
     padding: 20px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 760px) {
     header {
         flex-direction: column;
         align-items: flex-start;
@@ -388,7 +388,7 @@ footer {
         margin-left: 9%;
     }
 
-    @media (max-width: 480px) {
+    @media (max-width: 901px) {
         .iframe-container {
             max-width: 300px;
             width: 100%;

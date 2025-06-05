@@ -1,40 +1,8 @@
-Título: Projeto de Wide Coverage Location
+Wide coverage location 
 
-Resumo:
+Visa oferecer uma solução de localização com ampla cobertura geográfica, ideal para aplicações que exigem rastreamento, georreferenciamento ou análises espaciais em grande escala. Desenvolvido na minha formação Dev Club.
 
-📍 Wide Coverage Location é um projeto que visa oferecer uma solução de localização com ampla cobertura geográfica, 
-ideal para aplicações que exigem rastreamento, georreferenciamento ou análises espaciais em grande escala.
-
-
-
- Funcionalidades Principais:
-
-🔎 Localização precisa com suporte a múltiplas regiões;
-
-🌐 Integração com APIs de geolocalização;
-
-🗺️ Visualização geográfica em tempo real;
-
-📊 Análises de cobertura e distribuição geográfica;
-
-⚙️ Configuração flexível para diversos cenários de uso;
-
-
-
- Tecnologias utilizadas:
-
-- Front end desenvolvido com tecnologias web modernas;
-- Backend integrado a banco de dados;
-- Design responsivo para uso em dispositivos móveis e desktop.
-
-Diferenciais:
-Traz desenvolvimento de soluções de geolocalização e cobertura de sinal em áreas de difícil acesso ou com infraestrutura limitada.
-
-Motivação: 
-
-A motivação principal está associada a superar as distâncias de um local para o outro. 
-O sistema de localização de ampla cobertura permitiria que drones operassem com maior autonomia e segurança, 
-mesmo em condições adversas como áreas urbanas, zonas rurais, ambientes internos ou regiões montanhosas.
+Veja Aqui: https://widecoveragelocation.vercel.app
 
 ![signup](https://github.com/user-attachments/assets/d3dccf8b-b448-4190-aa46-b3a2d611ff6b)
 
@@ -46,7 +14,7 @@ mesmo em condições adversas como áreas urbanas, zonas rurais, ambientes inter
 
 ![blog](https://github.com/user-attachments/assets/655d06cb-e253-4aee-b617-653d269ba113)
 
-Veja Aqui => https://widecoveragelocation.vercel.app
+
 
 
 
